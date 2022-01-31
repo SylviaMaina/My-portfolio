@@ -17,7 +17,7 @@ nav {
 }
 .logo h1 {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 1.875rem;
   color: rgb(53, 51, 51);
 }
 .ul-items {
@@ -35,7 +35,7 @@ nav {
 }
 
 .ul-items li:hover {
-  border-bottom: 3px solid #000;
+  border-bottom: 0.188rem solid #000;
 }
 .ul-items li a {
   text-decoration: none;

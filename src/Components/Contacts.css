@@ -19,23 +19,23 @@ form label {
 
 form input {
   width: 40%;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 form textarea {
   width: 40%;
-  padding: 20px;
+  padding: 1.25rem;
 }
 form button {
   padding: 1rem 4rem;
   margin-top: 1rem;
   background-color: grey;
   color: #fff;
-  border: 2px solid #fff;
+  border: 0.125rem solid #fff;
   cursor: pointer;
 }
 
 a.arrow {
   color: #fff;
-  font-size: 50px;
+  font-size: 3.125rem;
 }

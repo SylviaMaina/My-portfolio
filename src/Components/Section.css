@@ -5,7 +5,7 @@
   height: 100vh;
   background-color: rgb(216, 216, 216);
   font-family: "Poppins", sans-serif;
-  border: 7px solid black;
+  border: 0.438rem solid black;
 }
 
 .container {
@@ -23,7 +23,7 @@
   color: grey;
 }
 .texts .h1-big {
-  font-size: 60px;
+  font-size: 3.75rem;
   color: rgb(61, 60, 60);
 }
 .texts p {
@@ -34,12 +34,12 @@
 }
 .text-button {
   margin-top: 2.4rem;
-  padding: 14px 35px;
+  padding: 0.875rem 2.188rem;
   cursor: pointer;
   background-color: rgb(59, 55, 55);
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 .text-button a {
   text-decoration: none;

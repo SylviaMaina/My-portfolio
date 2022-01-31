@@ -48,4 +48,5 @@
 .image {
   clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 39% 100%, 0% 50%, 36% 0%);
   background-color: black;
+  width: 100%;
 }

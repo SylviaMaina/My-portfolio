@@ -18,8 +18,6 @@ function About() {
           <p>JavaScript</p>
           <p>Css</p>
           <p>HTML</p>
-          <p>Bootstrap</p>
-          <p>Material UI</p>
           <p>UX/UI Design</p>
         </div>
       </div>

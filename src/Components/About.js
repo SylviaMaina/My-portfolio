@@ -20,7 +20,7 @@ function About() {
           <p>HTML</p>
           <p>Bootstrap</p>
           <p>Material UI</p>
-          <p>WordPress</p>
+          <p>UX/UI Design</p>
         </div>
       </div>
     </section>

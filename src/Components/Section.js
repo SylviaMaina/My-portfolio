@@ -21,7 +21,7 @@ function About() {
           </button>
         </div>
         <div className="image">
-          <img src={grey} alt="" style={{ width: "550px", height: "550px" }} />
+          <img src={grey} alt="" />
         </div>
       </div>
     </section>

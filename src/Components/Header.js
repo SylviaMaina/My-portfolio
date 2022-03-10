@@ -6,11 +6,8 @@ function Header() {
   return (
     <div className="header">
       <nav>
-        <div className="logo">
-          <h1> SWM .</h1>
-        </div>
-
         <ul className="ul-items">
+          <li className="logo">SWM.</li>
           <li>
             <Link to="#">Home</Link>
           </li>

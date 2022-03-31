@@ -1,8 +1,6 @@
 import React from "react";
 import "./Section.css";
 import grey from "./images/brown.jpg";
-import { Link } from "react-router-dom";
-import message from "./images/mail_black_24dp.svg";
 
 function About() {
   return (
@@ -29,11 +27,6 @@ function About() {
         <div className="image">
           <img src={grey} alt="" />
         </div>
-      </div>
-      <div className="message">
-        <Link to="/contact">
-          <img src={message} alt="..." />{" "}
-        </Link>
       </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 299">

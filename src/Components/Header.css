@@ -1,22 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 .header {
-  max-width: 100%;
+  max-width: 90%;
   font-family: "Poppins", sans-serif;
-  position: absolute;
+  position: fixed;
+  margin: auto;
 }
 nav {
   height: 3em;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .logo {
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   font-size: 1.875rem;
   color: rgb(53, 51, 51);
-  padding: 0.2rem;
+  padding: 0.5rem;
 }
 .ul-items {
   display: flex;
@@ -28,6 +31,7 @@ nav {
 }
 .ul-items li {
   margin-right: 0.2rem;
+  font-size: 1.5rem;
 }
 .ul-items li {
   color: rgb(44, 40, 40);
@@ -43,4 +47,71 @@ nav {
   color: rgb(44, 40, 40);
   text-decoration: none;
   text-transform: uppercase;
+}
+.ham {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+  .ham {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100%;
+  }
+  .bar {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5rem;
+    position: relative;
+    left: 150%;
+    top: -2.5rem;
+  }
+  .ham img {
+    display: flex;
+  }
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    height: 30vh;
+    position: relative;
+    left: 120%;
+    top: -2rem;
+    background-color: #ffdda1;
+  }
+  .nav-bar ul {
+    list-style: none;
+  }
+  .list li {
+    color: rgb(44, 40, 40);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 0.2rem;
+  }
+  .list li:hover {
+    border-bottom: 0.188rem solid #000;
+  }
+  .list li a {
+    text-decoration: none;
+    color: rgb(44, 40, 40);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .nav-bar img {
+    width: 1rem;
+    height: 1rem;
+  }
+  .close {
+    height: 2vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+  }
 }

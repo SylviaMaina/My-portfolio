@@ -11,15 +11,22 @@ function Contacts() {
           <ArrowBack className="arrow" />
         </Link>
 
-        <form>
+        <form
+          action="https://formsubmit.co/sylviamaina16@gmail.com"
+          method="POST"
+        >
           <label>Your Name</label>
           <input type="text" placeholder="Enter your name" />
           <label>Your Email</label>
-          <input type="text" placeholder="Enter your Email" />
+          <input type="text" placeholder="Enter your Email" required />
           <label>Message</label>
-          <textarea cols="50" rows="7" placeholder="e.g Hello" />
-
-          <button>Send</button>
+          <textarea cols="50" rows="7" placeholder="Enter your message here" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://sylvia-maina.netlify.app/thanks.html"
+          />
+          <button type="submit">Send</button>
         </form>
       </div>
     </div>

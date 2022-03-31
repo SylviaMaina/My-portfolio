@@ -2,17 +2,19 @@
 
 .testi {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(216, 216, 216);
-  height: 100vh;
+  background-color: #ba3f1d;
+  height: 60vh;
   max-width: 100%;
   overflow: hidden;
-  border: 0.438rem solid black;
 }
 .testi h1 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  color: grey;
+  color: rgb(44, 40, 40);
+  transition: 1000ms;
+  transform-origin: left;
+  transform: scaleX(1);
 }
 .cart-container {
   display: flex;

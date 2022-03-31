@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 .main-section {
-  min-width: 100%;
-  min-height: 100vh;
-  background-color: rgb(216, 216, 216);
+  max-width: 100%;
+  min-height: 50vh;
+  background-color: #ffdda1;
   font-family: "Poppins", sans-serif;
-  border: 0.438rem solid black;
 }
 
 .container {
-  padding-top: 5rem;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,10 +19,6 @@
 }
 .texts h1 {
   color: grey;
-}
-.texts .h1-big {
-  font-size: 3.75rem;
-  color: rgb(61, 60, 60);
 }
 .texts p {
   border-top: 0.13rem solid grey;
@@ -45,8 +39,21 @@
   color: #fff;
 }
 .image {
-  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 39% 100%, 0% 50%, 36% 0%);
   background-color: black;
-  max-width: 100%;
+  border-radius: 15% 35% 35% 60%;
+  max-width: 60%;
   height: auto;
+}
+.message {
+  position: fixed;
+  width: 4rem;
+  background-color: #ba3f1d;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+.message img {
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem;
 }

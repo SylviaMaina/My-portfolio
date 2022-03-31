@@ -2,20 +2,25 @@
 
 .footer {
   font-family: "Poppins", sans-serif;
-  background-color: rgba(128, 128, 128, 0.692);
-  height: fit-content;
+  background-color: #ffdda1;
+  min-height: 70vh;
   width: 100%;
-  overflow: hidden;
-  border: 0.438rem solid black;
 }
 h3 {
-  text-align: center;
-  color: grey;
+  color: rgb(54, 50, 50);
 }
 .contacts {
-  text-align: center;
+  position: relative;
+  margin-top: -4rem;
+  padding: 2rem;
+}
+.contacts ul {
+  list-style: none;
 }
 .contacts a {
   text-decoration: none;
   color: black;
+}
+.contacts a:hover {
+  background-color: #ba3f1d;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import linked from "./images/linkedinclone.png";
+import linked from "./images/e-shop.png";
 import sunny from "./images/sunny.jpg";
 import calc from "./images/Tip calc.jpg";
 
@@ -11,13 +11,14 @@ function Projects() {
       <div className="cart-container">
         <div className="cart">
           <img src={linked} alt="" />
-          <p>LinkedIn clone</p>
+          <p>E-commerce component</p>
           <h5>
-            This clone has been deployed and can be used to add posts to the
-            feed using firebase. Skills such as props, firebase database and
-            hosting, react dom router, material ui and many more skills.
+            This is a snippet of an e-commerce shop with all the front-end
+            functionality in place. It was created with javascript. The
+            inspiration was gotten from frontend mentor.io but the code was
+            fully done on my own.
           </h5>
-          <a href="https://github.com/SylviaMaina/LinkedIn-clone">
+          <a href="https://github.com/SylviaMaina/Sneaker-e-commerce-component">
             See the code...
           </a>
         </div>

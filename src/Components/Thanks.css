@@ -1,0 +1,15 @@
+.thanks {
+  background-color: #ba3f1d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 35rem;
+  height: 15rem;
+  margin: auto;
+  align-items: center;
+}
+.thanks .head,
+.messo {
+  text-align: center;
+  text-transform: capitalize;
+}
